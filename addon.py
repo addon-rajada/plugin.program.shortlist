@@ -167,6 +167,11 @@ else:
             info['plotoutline'] = item.plotoutline
             info['title'] = item.title
             info['count'] = count
+            info['genre'] = item.genre
+            info['votes'] = item.votes
+            info['mpaa'] = item.mpaa
+            info['writer'] = item.writer
+            info['director'] = item.director
 
             li.setInfo( 'video', info )
 

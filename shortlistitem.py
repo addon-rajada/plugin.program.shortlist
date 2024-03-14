@@ -16,4 +16,9 @@ class ShortlistItem:
     clearlogo = ""
     landscape = ""
     icon = "" 
+    genre = ""
+    votes = 0
+    mpaa = ""
+    writer = ""
+    director = ""
     is_folder = False
